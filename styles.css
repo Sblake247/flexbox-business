@@ -1,0 +1,160 @@
+.header{
+  background-image:url("./styles/sam-moghadam-khamseh-yiQCexXTXJI-unsplash.jpg");
+  background-size: 1800px;
+  background-repeat: no-repeat;
+  font-family: "Ojuju", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
+
+.navbar p{
+    display:inline-flex;
+    float:right;
+    padding: 10px;
+    align-items: flex-end;
+}
+body{
+    font-family: "Ojuju", sans-serif;
+    font-size: 32px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+a{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px red;
+}
+.mission{
+background-color: red;
+text-align: center;
+padding-bottom: 10px;
+padding-top: 20px;
+margin: 0;
+}
+.fitness-specialties{
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top:10px;
+    margin: 0;
+}
+.specialties{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.specialty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.specialty img{
+height: 250px;
+width: 300px;
+padding: 20px;
+}
+.nutritional-products{
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top:10px;
+    margin: 0; 
+    border-top: 1px solid black;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center 
+}
+.product img{
+    height: 250px;
+    width: 300px;
+    padding: 20px;   
+}
+span{
+    font-weight: bold;
+    text-shadow: red 1px 0 10px; 
+}
+#team-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top:20px;
+    margin: 0; 
+    border-top: 1px solid black;   
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;  
+    margin: 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding-right: 30px; 
+
+}
+.cards img{
+    height: 300px;
+    width: 150px;
+    padding: 20px;   
+}
+h3{
+    text-shadow: red 1px 0 10px;
+    margin:0%;
+}
+footer{
+    background-color: red;
+    text-align: center;
+margin: 0;
+padding-top: 20px;
+}
+@media only screen and (max-width: 480px){
+ .specialty{
+   display:flex;
+   flex-direction: column;
+ }
+ .product{
+    display: flex;
+    flex-direction: column;
+ }
+.cards{
+    display: flex;
+    flex-direction:column;
+}
+
+ }   
+
+
